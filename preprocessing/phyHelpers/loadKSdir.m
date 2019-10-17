@@ -1,4 +1,11 @@
-
+%% function spikeStruct = loadKSdir(ksDir, varargin)
+%{
+Notes by Haixin Liu to understand this function
+    varargin for input params
+    params: -struct
+        .excludeNoise: -logic
+        .loadPCs: -logic
+%}  
 
 function spikeStruct = loadKSdir(ksDir, varargin)
 
